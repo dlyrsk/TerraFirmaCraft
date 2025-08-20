@@ -2341,7 +2341,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Bushes, unlike fruit trees, take into account surrounding water blocks to determine their $(l:mechanics/hydration)Hydration$(), unlike fruit trees, which only care about rainfall.$(br)Any full bush block can grow berries, which are harvestable with $(item)$(k:key.use)$()."
+      "text": "Bushes, unlike fruit trees, take into account surrounding water blocks to determine their $(l:mechanics/hydration)Hydration$(), unlike fruit trees, which only care about rainfall.$(br)Any full bush block can grow berries, which are harvestable with $(item)$(k:key.use)$().$(br)If local temperature or hydration is outside the bush's listed range, it may become dormant. If it stays dormant for 4 consecutive months at a time when it should be active, the bush will die."
     },
     {
       "type": "patchouli:text",
@@ -2750,6 +2750,10 @@
       "title": "Small Bushes"
     },
     {
+      "type": "patchouli:text",
+      "text": "If local temperature or hydration is outside the bush's listed range (or special water needs are not met), it may become dormant. If it remains dormant for 4 consecutive months when it should be active, the bush will die."
+    },
+    {
       "type": "tfc:multimultiblock",
       "text": "Three different sizes of a healthy small bush",
       "multiblocks": [
@@ -2793,6 +2797,10 @@
           }
         }
       ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:text",
@@ -3620,19 +3628,19 @@
     "tfc:plant/blueberry_bush": 34,
     "tfc:food/elderberry": 36,
     "tfc:plant/elderberry_bush": 36,
-    "tfc:food/bunchberry": 40,
-    "tfc:plant/bunchberry_bush": 40,
-    "tfc:food/gooseberry": 42,
-    "tfc:plant/gooseberry_bush": 42,
-    "tfc:food/snowberry": 44,
-    "tfc:plant/snowberry_bush": 44,
-    "tfc:food/cloudberry": 46,
-    "tfc:plant/cloudberry_bush": 46,
-    "tfc:food/strawberry": 48,
-    "tfc:plant/strawberry_bush": 48,
-    "tfc:food/wintergreen_berry": 50,
-    "tfc:plant/wintergreen_berry_bush": 50,
-    "tfc:food/cranberry": 52,
-    "tfc:plant/cranberry_bush": 52
+    "tfc:food/bunchberry": 42,
+    "tfc:plant/bunchberry_bush": 42,
+    "tfc:food/gooseberry": 44,
+    "tfc:plant/gooseberry_bush": 44,
+    "tfc:food/snowberry": 46,
+    "tfc:plant/snowberry_bush": 46,
+    "tfc:food/cloudberry": 48,
+    "tfc:plant/cloudberry_bush": 48,
+    "tfc:food/strawberry": 50,
+    "tfc:plant/strawberry_bush": 50,
+    "tfc:food/wintergreen_berry": 52,
+    "tfc:plant/wintergreen_berry_bush": 52,
+    "tfc:food/cranberry": 54,
+    "tfc:plant/cranberry_bush": 54
   }
 }

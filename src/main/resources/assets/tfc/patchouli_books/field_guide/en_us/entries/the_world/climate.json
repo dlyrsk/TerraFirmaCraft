@@ -42,11 +42,19 @@
     {
       "type": "patchouli:text",
       "anchor": "temperature",
-      "text": "Temperature in TerraFirmaCraft is influenced by a number of factors:$(br)$(li)Firstly, the region, especially the latitude (Z coordinate) will play the largest role.$(li)Secondly, the current season will influence the temperature - it will be hottest during Summer, and coldest during Winter.$(li)Finally, the temperature can be different day to day as well as varying from hour to hour."
+      "text": "Temperature in TerraFirmaCraft is influenced by a number of factors:$(br)$(li)Firstly, the region, especially the latitude (Z coordinate) will play the largest role.$(li)Secondly, the current season will influence the temperature - it will be hottest during Summer, and coldest during Winter.$(li)Thirdly, the temperature can be different day to day as well as varying from hour to hour."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Finally, elevation (Y coordinate) affects temperature. Above sea level, temperature drops by 1.6°C per 10 blocks. Below sea level, it trends toward the area's annual average."
     },
     {
       "type": "patchouli:text",
       "text": "The last line shows the current temperature, including all these aforementioned factors.$(br2)Temperature can influence many things: if crops and plants will grow, if snow and ice will form or melt, and more."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
     },
     {
       "type": "patchouli:text",
